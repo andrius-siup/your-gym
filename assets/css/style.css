@@ -52,7 +52,8 @@ body {
 }
 
 .section-hero {
-  background-color: #eefbfd;
+  /* background-color: #eefbfd; */
+  background-color: #dcf7fb;
   padding: 9.6rem 0;
 }
 
@@ -111,9 +112,9 @@ body {
 
 .btn--outline:hover,
 .btn--outline:active {
-  background-color: #eefbfd;
+  /* background-color: #eefbfd; */
 
-  /* background-color: #dcf7fb; */
+  background-color: #dcf7fb;
   /* border: 3px solid #fff; */
 
   /* Add border inside button */
@@ -122,4 +123,9 @@ body {
 
 .hero-img {
   width: 100%;
+}
+
+/* Helper class */
+.margin-right-sm {
+  margin-right: 1.6rem !important;
 }
