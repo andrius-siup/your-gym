@@ -130,3 +130,25 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
+
+.spec-offer-members {
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+  margin-top: 8rem;
+}
+
+.spec-offer-members-imgs {
+  display: flex;
+}
+
+.spec-offer-members-imgs img {
+  width: 4.8rem;
+  height: 4.8rem;
+  border-radius: 50%;
+}
+
+.spec-offer-text {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
