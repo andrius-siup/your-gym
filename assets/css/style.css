@@ -197,6 +197,35 @@
   padding: 9.6rem 0;
 }
 
+.membership-cost {
+  display: flex;
+  gap: 0.2rem;
+  justify-content: center;
+  align-items: center;
+
+  padding: 3.2rem 0 6.4rem 0;
+}
+
+.cost-eu {
+  font-size: 6.4rem;
+  /* font-weight: 500; */
+}
+
+.cost-cent {
+  font-size: 3.2rem;
+  font-weight: 500;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.cost-currency {
+  font-size: 1.6rem;
+  /* font-weight: 500; */
+}
+
 .price-title {
   font-size: 2.4rem;
   color: #333;
