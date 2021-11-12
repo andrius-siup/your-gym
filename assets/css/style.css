@@ -278,7 +278,7 @@
 
 .plan-text {
   color: #777;
-  text-align: end;
+  text-align: center;
   padding: 0 1.6rem 1.6rem 0;
 }
 
@@ -312,8 +312,9 @@
   color: #52d7ec;
 }
 
-.price-img {
-  width: 100%;
+.plan-sign-up {
+  text-align: center;
+  padding: 0 0 4.8rem 0;
 }
 
 .all-memberships {
