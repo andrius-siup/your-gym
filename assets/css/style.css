@@ -290,14 +290,14 @@
   text-transform: uppercase;
 }
 
-.price-attributes {
+.list {
   list-style: none;
   display: flex;
   flex-direction: column;
   gap: 2rem;
 }
 
-.price-attribute {
+.list-item {
   font-size: 1.8rem;
 
   display: flex;
@@ -305,7 +305,7 @@
   align-items: center;
 }
 
-.price-icon {
+.list-icon {
   height: 2.4rem;
   width: 2.4rem;
   stroke: #52d7ec;
