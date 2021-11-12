@@ -212,15 +212,25 @@
   box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
 }
 
+/* .price-bronze,
+.price-silver {
+  border: 1px solid #dcf7fb;
+  padding-bottom: 2rem;
+} */
+
+/* .price--gold {
+  background-color: #dcf7fb;
+} */
+
 .price-content {
   padding: 0 4.8rem 4.8rem 4.8rem;
 }
 
-.price-tags {
+/* .price-tags {
   margin-bottom: 1.2rem;
-}
+} */
 
-.tag {
+/* .tag {
   display: inline-block;
   padding: 0.4rem 0.8rem;
   font-size: 1.2rem;
@@ -241,7 +251,7 @@
 
 .tag--bronze {
   background-color: #ffa94d;
-}
+} */
 
 .membership-cost {
   display: flex;
