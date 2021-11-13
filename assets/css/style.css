@@ -348,6 +348,34 @@
   font-size: 1.8rem;
 }
 
+.feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature-icon {
+  color: #4ac2d4;
+  width: 3.2rem;
+  height: 3.2rem;
+  background-color: #dcf7fb;
+  margin-bottom: 3.2rem;
+  padding: 1.6rem;
+  border-radius: 50%;
+}
+
+.feature-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 700;
+  margin-bottom: 1.6rem;
+}
+
+.feature-text {
+  font-size: 1.6rem;
+  line-height: 1.6;
+}
+
 /*-----------------------------------------*/
 /* TESTIMONIALS SECTION */
 /*-----------------------------------------*/
