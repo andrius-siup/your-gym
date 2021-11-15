@@ -463,7 +463,12 @@
 }
 
 .cta-img-box {
-  background-image: url("./../../img/cta/cta-img-1.jpg");
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(117, 224, 240, 0.3),
+      rgba(82, 215, 236, 0.3)
+    ),
+    url("./../../img/cta/cta-img-1.jpg");
   background-size: cover;
   background-position: center;
 }
