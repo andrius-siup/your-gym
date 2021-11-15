@@ -216,6 +216,13 @@ body {
   border-bottom: 1px solid transparent;
 }
 
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #52d7ec;
+  outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(82, 215, 236, 0.5);
+}
+
 /* Helper class */
 
 .text-center {
