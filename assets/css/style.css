@@ -443,7 +443,7 @@
 /* CTA SECTION */
 /*-----------------------------------------*/
 .section-cta {
-  padding: 9.6rem 0;
+  padding: 9.6rem 0 12.8rem 0;
 }
 
 .cta {
@@ -524,7 +524,8 @@
 /* FOOTER */
 /*-----------------------------------------*/
 .footer {
-  padding: 9.6rem 0;
+  padding: 12.8rem 0;
+  border-top: 1px solid #eee;
 }
 
 .grid--footer {
