@@ -451,6 +451,20 @@
   width: 100%;
 }
 
+.trainer-tags {
+  margin-bottom: 1.2rem;
+}
+
+.tag {
+  display: inline-block;
+  padding: 0.4rem 0.8rem;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  background-color: #52d7ec;
+  color: #333;
+  border-radius: 100px;
+}
+
 .trainer-name {
   font-size: 2.4rem;
   color: #333;
