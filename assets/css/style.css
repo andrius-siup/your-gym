@@ -465,8 +465,17 @@
   gap: 2rem;
 }
 
+.trainer-icon {
+  width: 2.4rem;
+  height: 2.4rem;
+  color: #52d7ec;
+}
+
 .trainer-skill {
   font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
 }
 
 /*-----------------------------------------*/
