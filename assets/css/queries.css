@@ -49,6 +49,11 @@
     gap: 4.8rem;
   }
 
+  .logos {
+    gap: 2.4rem;
+    justify-content: center;
+  }
+
   .testimonials-container {
     padding: 3.2rem;
   }
