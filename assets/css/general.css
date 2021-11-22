@@ -57,6 +57,7 @@ Medium: 11px
 }
 
 html {
+  /* 10 / 16 = 0.625 */
   font-size: 62.5%;
 }
 
