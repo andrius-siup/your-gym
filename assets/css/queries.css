@@ -109,6 +109,14 @@
   .plan-sign-up {
     padding: 0 0 3.2rem 0;
   }
+
+  .section-testimonials {
+    grid-template-columns: 1fr;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(6, 1fr);
+  }
 }
 
 /*
