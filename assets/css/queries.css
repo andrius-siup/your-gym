@@ -117,6 +117,14 @@
   .gallery {
     grid-template-columns: repeat(6, 1fr);
   }
+
+  .trainer-content {
+    padding: 2.4rem 3.2rem 3.2rem;
+  }
+
+  .trainer-skill {
+    font-size: 1.6rem;
+  }
 }
 
 /*
