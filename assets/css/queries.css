@@ -125,6 +125,24 @@
   .trainer-skill {
     font-size: 1.6rem;
   }
+
+  .cta {
+    /* 3/4 = 75% + 1/4 = 25% */
+    /* grid-template-columns: 3fr 1fr; */
+
+    /* 3/5 = 60% + 2/5 = 40% */
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .cta-form {
+    grid-template-columns: 1fr;
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+  }
+
+  .btn--form {
+    margin-top: 1.2rem;
+  }
 }
 
 /*
