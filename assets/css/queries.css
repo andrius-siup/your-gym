@@ -67,6 +67,26 @@
   html {
     font-size: 50%;
   }
+
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+  }
+
+  .spec-offer-members {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+
+  .hero-img {
+    width: 60%;
+  }
 }
 
 /*
