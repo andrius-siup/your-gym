@@ -162,7 +162,8 @@
 
     display: flex;
     justify-content: center;
-    transition: all 0.5s;
+    /* transition: all 0.5s; */
+    transition: all 0.5s ease-in;
 
     /* Hide navigation */
     /* Allows NO transitions at all */
@@ -177,6 +178,7 @@
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
+    transform: translateX(0);
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
