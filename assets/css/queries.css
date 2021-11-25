@@ -167,11 +167,15 @@
     /* Allows NO transitions at all */
     /* display: none; */
 
-    opacity: 0;
+    opacity: 0; /* 1. Hide it visually */
+    pointer-events: none; /* Make it unaccessible to mouse & keyboard */
+    visibility: hidden; /* Hide it from screen readers */
   }
 
   .nav-open .main-nav {
     opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
   }
 
   .main-nav-list {
