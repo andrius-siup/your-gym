@@ -210,6 +210,12 @@
   .grid--4-cols {
     grid-template-columns: repeat(2, 1fr);
   }
+
+  .last-card-odd {
+    grid-column: 1 / -1;
+    justify-self: center;
+    width: 47.06%;
+  }
 }
 
 /*
