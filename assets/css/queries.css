@@ -394,6 +394,18 @@
   .plan-text {
     font-size: 1.6rem;
   }
+
+  .feature {
+    padding: 0 3.2rem;
+  }
+
+  .gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .trainer {
+    width: 90%;
+  }
 }
 /*
 - SPACING SYSTEM (px)
