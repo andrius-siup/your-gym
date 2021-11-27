@@ -272,6 +272,15 @@
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
+
+  .section-hero {
+    padding: 2.4rem 0 4.8rem 0;
+  }
+
+  .hero {
+    padding: 0 3.2rem;
+    gap: 4.8rem;
+  }
 }
 
 /*
