@@ -318,6 +318,11 @@
     transform: translateY(2.4rem);
   }
 
+  .pricing-plan {
+    width: 80%;
+    justify-self: center;
+  }
+
   .testimonials {
     grid-template-columns: 1fr;
   }
