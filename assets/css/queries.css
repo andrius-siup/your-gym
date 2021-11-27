@@ -359,6 +359,10 @@
   html {
     font-size: 43.75%;
   }
+
+  .spec-offer-members {
+    flex-direction: column;
+  }
 }
 /*
 - SPACING SYSTEM (px)
