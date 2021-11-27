@@ -363,6 +363,24 @@
   .spec-offer-members {
     flex-direction: column;
   }
+
+  .logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .featured-logo {
+    border: none;
+  }
+
+  .featured-icon {
+    width: 6.4rem;
+    height: 6.4rem;
+  }
+
+  .featured-logo p {
+    font-size: 1.6rem;
+  }
 }
 /*
 - SPACING SYSTEM (px)
