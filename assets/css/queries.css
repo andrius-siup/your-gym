@@ -225,6 +225,24 @@
     width: 75%;
   } */
 
+  .logos {
+    /* justify-content: space-between; */
+    gap: 1.2rem;
+  }
+
+  .featured-logo {
+    font-size: 1.2rem;
+  }
+
+  .featured-logo p span {
+    display: none;
+  }
+
+  .featured-icon {
+    width: 6.2rem;
+    height: 6.2rem;
+  }
+
   .grid--footer {
     grid-template-columns: repeat(6, 1fr);
   }
