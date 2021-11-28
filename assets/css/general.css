@@ -60,6 +60,7 @@ html {
   /* 10 / 16 = 0.625 */
   font-size: 62.5%;
   overflow-x: hidden; /* all overflow by horizontally will be hidden */
+  scroll-behavior: smooth;
 }
 
 body {
