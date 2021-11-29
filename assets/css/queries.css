@@ -93,6 +93,11 @@
     height: 8.6rem;
   }
 
+  .section-classes {
+    border-radius: 0;
+    box-shadow: none;
+  }
+
   .step-number {
     font-size: 7.4rem;
   }
@@ -246,6 +251,10 @@
   .featured-icon {
     width: 6.2rem;
     height: 6.2rem;
+  }
+
+  .step-img {
+    width: 85%;
   }
 
   .grid--footer {
