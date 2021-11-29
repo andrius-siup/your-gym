@@ -40,3 +40,22 @@ allLinks.forEach(function (link) {
       header.classList.toggle("nav-open");
   });
 });
+
+// Sticky navigation
+const sectionHeroEl = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    const ent = entries[0];
+    console.log(ent);
+    if (ent.isIntersecting === false) {
+      document.querySelector(".header").classList.add("sticky");
+    }
+  },
+  {
+    // In the viewport
+    root: null,
+    threshold: 0,
+  }
+);
+obs.observe(sectionHeroEl);
